@@ -1,13 +1,11 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-body {background-color: #669999}
 
 .white-bg {background-color: white}
 
 .jumborox {background-color:transparent !important;}
 
 .roximg {height: 5em}
-
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
 body {
@@ -29,6 +27,22 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
+.frame{
+    border:gainsboro;
+    width: 750px;
+    height: 600px
+}
+
 .bot-mar {
   margin-bottom: 1em;
+}
+
+.but-mar {
+    /*margin-bottom: 0.7em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;*/
+}
+
+@media screen and (max-width: 800px) {
+    .pie  { display: none; }
 }
